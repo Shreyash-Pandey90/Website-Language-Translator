@@ -33,7 +33,7 @@ A one-click solution to translate any website to Hindi (or other languages) with
 ### Backend Setup
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/translation-widget.git
+git clone https://github.com/Shreyash-Pandey90/Website-Language-Translator
 cd translation-widget
 
 # Set up virtual env (Windows)
