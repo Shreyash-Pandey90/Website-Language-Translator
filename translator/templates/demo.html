@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gov Translator Widget Demo</title>
+</head>
+<body>
+    <h1>Welcome to Government Portal</h1>
+    <p>This portal helps citizens get important services.</p>
+    <p>Fill the application form correctly to proceed.</p>
+    <script>
+        window.translationWidgetConfig = {
+          apiEndpoint: '/api/translate/',
+          buttonPosition: 'top-right',
+        };
+      </script>
+      <script src="http://127.0.0.1:8000/static/widget.js"></script>
+</body>
+</html>

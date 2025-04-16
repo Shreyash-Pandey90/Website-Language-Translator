@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Django
+*.db
+db.sqlite3
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Migrations (optional, keep if you want to share structure)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.log
+
+# Static files (optional if you collect them separately)
+media/
+
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# pyenv
+.python-version
+
+# Build
+build/
+dist/
+*.egg-info/
